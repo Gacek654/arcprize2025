@@ -28,6 +28,7 @@ def flood_fill_border_zero_to_two(grid):
                     q.append((nr, nc))
                     visited[nr][nc] = True
 
+    return result
 input_grid = [
     [0, 0, 0, 0, 0],
     [0, 0, 1, 0, 0],
