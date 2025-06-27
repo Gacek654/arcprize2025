@@ -39,5 +39,3 @@ input_grid = [
 
 output = flood_fill_border_zero_to_two(input_grid)
 print(output)
-
-# aaaa
